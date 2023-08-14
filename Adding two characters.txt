@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    char char1 = 'A';
+    char char2 = 'B';
+    char result = char1 + char2;
+    printf("Character 1: %c\n", char1);
+    printf("Character 2: %c\n", char2);
+    printf("Result: %c\n", result);
+    return 0;
+}

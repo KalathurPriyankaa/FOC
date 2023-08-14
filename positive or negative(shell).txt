@@ -1,0 +1,7 @@
+read -p "enter the number: " n
+if((n<0))
+then
+ echo "negative number"
+else
+ echo "positive number"
+fi

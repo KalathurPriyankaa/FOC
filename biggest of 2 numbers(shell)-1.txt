@@ -1,0 +1,8 @@
+read -p "enter the number: " n1
+read -p "enter the number: " n2
+if((n1>n2))
+then 
+  echo "n1 is bigger"
+else
+  echo "n2 is bigger"
+fi
